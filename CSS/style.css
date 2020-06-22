@@ -1,0 +1,167 @@
+button{
+   background-color:#ffffe6;
+  color: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+div
+{
+  font-weight: bold;
+  font-size: 25px;
+}
+button:hover {
+  background-color: black; 
+  color: white;
+}
+.td1
+{
+  background-color: #ffffb3;
+}
+.pivot
+{
+  background-color: #ffff4d;
+}
+table
+{
+  border-collapse: collapse;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 70%;
+}
+table,th,td
+{
+  border: 1px solid grey;
+}
+th
+{
+  font-size: 25px;
+  color : #996600;
+}
+th,td
+{
+  text-align: center;
+}
+.vide,.nv
+{
+  border: 2px solid red;
+  border-radius: 3px;
+}
+h1
+{
+
+}
+td
+{
+  font-size: 20px;
+}
+div
+{
+  text-align: center;
+}
+body
+{
+  background-color:#ffffe6;
+  text-align: center;
+}
+input
+{
+  text-align: center;
+}
+
+h3
+{
+  text-align: left;
+  margin-left: 50px;
+  text-decoration: underline;
+}
+article
+{
+  padding: 20px 80px;
+}
+
+@font-face {
+    font-family: 'Sketch Block';
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.svg#SketchBlockBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo 700';
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.svg#SketchBlockBold') format('svg');
+}
+
+@font-face {
+    font-family: 'CallunaRegular';
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot');
+    src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+}
+
+  .container {
+    width: 590px;
+    margin-bottom:400px;
+    margin-left: 300px;
+    position: relative;
+  }
+
+ blockquote {
+    width: 565px;
+    font: 2.65em CallunaRegular;
+    letter-spacing: .075em;
+    float: left;
+    padding: 45px 0 30px 25px;
+    margin: 0;
+    border-top: 2px dotted #858585;
+    border-bottom: 2px dotted #858585;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+  }
+
+  .container:before {
+    content: "“";
+    font-size: 13em;
+    position: absolute;
+    left: -100px;
+    color: #666;
+  }
+
+  .container:after {
+    content: "”";
+    font-size: 13em;
+    position: absolute;
+    right: -100px;
+    top: 150px;
+    color: #666;
+  }
+
+    blockquote strong:first-child {
+      font: 1.85em "Sketch Block";
+      color: #fff79e;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    blockquote strong:last-child {
+      color :black;
+      font: 2em "Museo 700";
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+
+   b {
+      float: right;
+      margin-top: 10px;
+      font: 1.6em CallunaRegular;
+      letter-spacing: .15em;
+    }
+      b:first-letter {
+      color: grey;
+    }
